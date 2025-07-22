@@ -19,21 +19,32 @@ Este es un proyecto que simula el comportamiento de una shell de comandos de Lin
 
 ## ¿Cómo Compilar y Ejecutar?
 
-Sigue estos pasos en tu terminal:
+Sigue estos pasos en tu terminal de Linux:
 
 1.  **Clona el repositorio:**
     ```sh
-    git clone https://github.com/XxS1LV3RxX/Shell.git
+    git clone https://github.com/XxS1LV3RxX/shell.git
     ```
+
 2.  **Navega a la carpeta del proyecto:**
     ```sh
     cd shell
     ```
-3.  **Compila el proyecto usando el Makefile:**
+
+3.  **Compila el proyecto:**
+    Gracias al `Makefile`, compilar es muy sencillo. Simplemente ejecuta:
     ```sh
     make
     ```
+    Este comando leerá el `Makefile` y ejecutará la receta de compilación, creando un programa ejecutable llamado `mi_shell`.
+
 4.  **Ejecuta la shell:**
     ```sh
-    ./shell
+    ./mi_shell
     ```
+    ¡Listo! Ahora estarás dentro de tu propia shell de comandos.
+
+## Limpieza
+Para borrar el programa ejecutable y dejar solo el código fuente, puedes ejecutar:
+```sh
+make clean```
